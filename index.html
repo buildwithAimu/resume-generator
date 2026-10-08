@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Modern Resume Generator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+         <div class="form-container" id="formContainer">         <!-- Form section for taking user input -->
+        <h2>built Your Resume</h2>
+        <input type="file" id="photoInput" accept="image/*">
+        <input type="text" id="name" placeholder="Your Name">
+        <input type="text" id="title" placeholder="Your Title (e.g., Web Developer)">
+        <input type="email" id="email" placeholder="Your Email">
+        <input type="text" id="phone" placeholder="Your Phone Number">
+        <input type="text" id="address" placeholder="Your Address">
+        <textarea id="skills" placeholder="Skills (comma separated)"></textarea>
+        <textarea id="education" placeholder="Education (comma separated)"></textarea>
+        <textarea id="experience" placeholder="Experience (comma separated)"></textarea>
+        <button id="generateBtn">Generate Resume</button>
+    </div>
+
+    <div class="resume-container" id="resumeContainer" style="display:none;">  <!-- Resume section for displaying generated resume -->
+        <div class="header">
+            <img id="photo" src="" alt="Profile Photo">
+            <div>
+                <h1 id="r_name">Name</h1>
+                <h3 id="r_title">Title</h3>
+            </div>
+        </div>
+        <div class="contact">
+            <p id="r_email">Email: </p>
+            <p id="r_phone">Phone: </p>
+            <p id="r_address">Address: </p>
+        </div>
+        <div class="section">
+            <h2>Skills</h2>
+            <ul id="r_skills"></ul>
+        </div>
+        <div class="section">
+            <h2>Education</h2>
+            <ul id="r_education"></ul>
+        </div>
+        <div class="section">
+            <h2>Experience</h2>
+            <ul id="r_experience"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
