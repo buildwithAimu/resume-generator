@@ -37,6 +37,8 @@ form and get your resume!
 ## 📂 Project Structure
 - `index.html` — Main page
 - `style.css` — Styling
-- `script.js` — Logic            <img width="676" height="645" alt="Screenshot 2026-10-09 003628" src="https://github.com/user-attachments/assets/82bda750-6f9f-4bb0-98c7-20b1bae9a321" />
+- `script.js` — Logic
+-
+- <img width="676" height="645" alt="Screenshot 2026-10-09 003628" src="https://github.com/user-attachments/assets/82bda750-6f9f-4bb0-98c7-20b1bae9a321" />
 <img width="445" height="540" alt="Screenshot 2026-10-09 003639" src="https://github.com/user-attachments/assets/bb16d6cf-84d8-41b1-b9a2-48d258990bbf" />
 
